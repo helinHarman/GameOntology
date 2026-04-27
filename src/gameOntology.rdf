@@ -8,8 +8,6 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:gameOntology="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology"/>
-    
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -19,43 +17,26 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#belongsTo -->
-
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#belongsTo">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasCharacter"/>
     </owl:ObjectProperty>
-    
 
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#completesQuest -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#completesQuest">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
     
 
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#earnsAchievement -->
-
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#earnsAchievement">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
-    
 
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#equippedWith -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#equippedWith">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
     
-
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#givesReward -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#givesReward">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -63,15 +44,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasCharacter -->
-
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasCharacter">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
-    
 
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasItem -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasItem">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -79,15 +55,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasQuest -->
-
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasQuest">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
     
 
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#plays -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#plays">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -95,15 +67,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#useItem -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#useItem">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
-    
 
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#wears -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#wears">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -122,15 +90,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasDamage -->
-
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasDamage">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
-    
 
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasDifficulty -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasDifficulty">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -138,7 +101,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasLevel -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasLevel">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -146,7 +108,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasName -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -154,7 +116,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasUsername -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#hasUsername">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -173,13 +134,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Achievement -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Achievement"/>
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Armor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Armor">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Item"/>
@@ -187,7 +147,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Character -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Character">
         <rdfs:subClassOf>
@@ -221,10 +181,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
 
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Game -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Game">
         <rdfs:subClassOf>
@@ -249,8 +206,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Item -->
-
     <owl:Class rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Item">
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -262,7 +217,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Player -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Player">
         <rdfs:subClassOf>
@@ -299,7 +253,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Quest -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Quest">
         <rdfs:subClassOf>
@@ -318,8 +271,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Weapon -->
-
     <owl:Class rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Weapon">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Item"/>
     </owl:Class>
@@ -337,7 +288,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Aysegul -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Aysegul">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Player"/>
@@ -350,7 +301,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Bilgesu -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Bilgesu">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Player"/>
@@ -363,8 +313,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#CounterStrike -->
-
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#CounterStrike">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Game"/>
         <gameOntology:hasItem rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Sword"/>
@@ -372,8 +320,6 @@
     </owl:NamedIndividual>
     
 
-
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#DragonSlayer -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#DragonSlayer">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Quest"/>
@@ -384,7 +330,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Helin -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Helin">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Player"/>
@@ -397,7 +342,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Kerem -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Kerem">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Player"/>
@@ -410,7 +354,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Loser -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Loser">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Achievement"/>
@@ -418,7 +362,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#PUBG -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#PUBG">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Game"/>
@@ -428,7 +372,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Shield -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Shield">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Armor"/>
@@ -437,7 +381,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Sword -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Sword">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Weapon"/>
@@ -446,7 +389,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Warrior1 -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Warrior1">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Character"/>
@@ -459,7 +402,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Warrior2 -->
+  
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Warrior2">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Character"/>
@@ -472,14 +415,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Winner -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Winner">
         <rdf:type rdf:resource="http://www.semanticweb.org/taner/ontologies/2026/3/gameOntology#Achievement"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
-
-
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
