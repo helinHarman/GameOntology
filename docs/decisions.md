@@ -6,4 +6,4 @@
 
 ### Decision 2: Inverse Relationship for Player-Character
 - **Description:** Defined `belongsTo` as the inverse of `hasCharacter`.
-- [cite_start]**Rationale:** To ensure bidirectional navigation in the game ecosystem as required by the ORSD.
+- **Rationale:** To ensure bidirectional navigation in the game ecosystem as required by the ORSD.
